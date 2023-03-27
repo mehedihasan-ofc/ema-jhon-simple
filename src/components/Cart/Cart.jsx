@@ -18,8 +18,6 @@ const Cart = ({cart}) => {
     // calculate grand total
     const grandTotal = totalPrice + totalShipping + tax;
 
-    console.log(totalPrice);
-
     // const cart = props.cart; //==> option 01
     // const {cart} = props; //==> option 02
 
