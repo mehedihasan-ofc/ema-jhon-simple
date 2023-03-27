@@ -1,0 +1,27 @@
+/* Cart Container */
+.cart {
+    background: rgba(255, 153, 0, 0.3);
+    padding: 25px;
+    position: sticky;
+    top: 10%;
+}
+
+.cart h4 {
+    color: #1C2B35;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 30px 0;
+}
+
+.cart p {
+    color: #2A414F;
+    font-weight: 400;
+    font-size: 17px;
+    margin: 25px 0;
+}
+
+.cart h6 {
+    color: #0E161A;
+    font-weight: 400;
+    font-size: 21px;
+}
