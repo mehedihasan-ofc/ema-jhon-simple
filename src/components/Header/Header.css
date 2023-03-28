@@ -24,3 +24,10 @@ nav.header a {
 nav.header a:hover {
     color: #ff9900;
 }
+
+/* Responsive code here */
+@media screen and (max-width: 576px) {
+    .menu-bar {
+        display: none;
+    }
+}
