@@ -1,18 +1,18 @@
 import React from 'react';
 import './Cart.css';
 
-const Cart = ({cart}) => {
+const Cart = ({ cart }) => {
 
     let totalPrice = 0;
     let totalShipping = 0;
     let quantity = 0;
-    for(const product of cart) {
+    for (const product of cart) {
 
-/*         if(product.quantity === 0) {
-            product.quantity = 1;
-        }
-
-        product.quantity = product.quantity || 1; */
+        /*         if(product.quantity === 0) {
+                    product.quantity = 1;
+                }
+        
+                product.quantity = product.quantity || 1; */
 
         totalPrice = totalPrice + product.price * product.quantity;
         totalShipping = totalShipping + product.shipping;
@@ -20,7 +20,7 @@ const Cart = ({cart}) => {
     }
 
     // calculate tax
-    const tax = totalPrice*7/100;
+    const tax = totalPrice * 7 / 100;
 
     // calculate grand total
     const grandTotal = totalPrice + totalShipping + tax;
