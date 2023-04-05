@@ -26,3 +26,24 @@
     font-weight: 400;
     font-size: 21px;
 }
+
+.btn-clear-cart {
+    width: 100%;
+    height: 50px;
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background: #FF3030;
+    border-radius: 4px;
+}
+
+.btn-clear-cart span {
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.cart-delete-icon {
+    font-size: 20px;
+}
