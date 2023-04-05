@@ -47,9 +47,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: .5s;
 }
 
 .delete-icon {
-    color: #EB5757;
+    color: rgb(235, 87, 87);
     font-size: 27px;
+}
+
+.btn-delete:hover {
+    background: rgba(235, 87, 87, 0.5);
 }
