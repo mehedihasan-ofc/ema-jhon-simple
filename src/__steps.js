@@ -6,3 +6,7 @@
  * 05. Build -> Authentication -> enable sign in method
  * 06. create sign up and login route
 */
+
+/**
+ * 01. create a context provider
+*/
