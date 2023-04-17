@@ -9,4 +9,8 @@
 
 /**
  * 01. create a context provider
+ * 02. create a context and set provider
+ * 03. set the children props
+ * 04. set context value
+ * 05. set the provider
 */
